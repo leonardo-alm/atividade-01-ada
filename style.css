@@ -1,10 +1,44 @@
 * {
-    color: white;
-    background: rgb(236, 120, 120);
+
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
+}
+
+header {
+    display: flex;
+    background-color: rgb(17, 17, 129);
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+}
+
+main {
+    color: white;
+    background: rgb(236, 120, 120);
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
+
+li:hover {
+    background-color: rgb(236, 120, 120);
+    font-weight: bold;
+}
+
+.logo {
+    height: 100px;
+    width: 80px;
 }
 
 h1 {
@@ -17,15 +51,29 @@ h1 {
 h2 {
     margin-bottom: 60px;
 }
+h3 {
+    margin-bottom: 40px;
+}
 
 p {
     font-weight: bold;
     margin-bottom: 30px;
+    background-color: rgb(236, 120, 120);
 }
 
-img{
+.lorem {
+    padding-bottom: 100px;
+}
+img {
     width: 80%;
     height: 80%;
+}
+
+aside {
+    margin-bottom: -30px;
+    text-align: center;
+    background-color: rgb(236, 120, 120);
+    color: white;
 }
 
 .eventos {
@@ -42,14 +90,15 @@ img{
     max-width: 50rem;
 }
 
-.container{
+.container {
     margin-bottom: 60px;
 }
 
-.zap {
+.zap-container{
     width: 100%;
     text-align: center;
-    padding: 1rem 0;
+    padding: 2rem 0;
+    background-color: rgb(17, 17, 129);
 }
 
 a {
@@ -59,14 +108,15 @@ a {
     border-radius: 20px;
 }
 
-a,
-a:link,
-a:visited,
-a:focus {
-    background: rgb(90, 22, 22);
+
+a:visited{
     color: rgb(255, 255, 255);
 }
 
-a:hover {
+a:hover{
+   background-color: rgb(236, 120, 120);
+}
+
+zap:hover {
     background: brown;
 }
